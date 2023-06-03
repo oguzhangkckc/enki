@@ -23,12 +23,12 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-red-500 font-bold text-6xl">enki</h1>
+            <h1 className="text-red-500 font-extrabold text-6xl">enki</h1>
           </div>
 
           {/* Menu Links */}
           <div className="">
-            <ul className="flex items-center space-x-4 text-xl">
+            <ul className="flex items-center space-x-8 text-xl">
               <li className="relative">
                 <a href="/" className="text-black hover:text-red-500 transition duration-500 hover-underline-left-to-right">
                   Home
@@ -55,6 +55,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
+          {/* Language Part */}
           <div>
             <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
               Login
