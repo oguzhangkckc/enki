@@ -5,12 +5,12 @@ const Navbar = () => {
     const links = document.querySelectorAll('.hover-underline-left-to-right');
 
     links.forEach((link) => {
-      link.addEventListener('mouseenter', function() {
+      link.addEventListener('mouseenter', function () {
         const underline = this.querySelector('.underline');
         underline.style.width = '100%';
       });
 
-      link.addEventListener('mouseleave', function() {
+      link.addEventListener('mouseleave', function () {
         const underline = this.querySelector('.underline');
         underline.style.width = '0%';
       });
@@ -21,14 +21,12 @@ const Navbar = () => {
     <nav className="bg-primary">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-red-500 font-extrabold text-6xl">enki</h1>
+            <h1 className="text-red-500 text-4xl sm:text-5xl lg:text-6xl font-extrabold">enki</h1>
           </div>
 
-          {/* Menu Links */}
           <div className="">
-            <ul className="flex items-center space-x-8 text-xl">
+            <ul className="flex items-center space-x-2 sm:space-x-4 lg:space-x-8 text-base sm:text-lg lg:text-xl">
               <li className="relative">
                 <a href="/" className="text-black hover:text-red-500 transition duration-500 hover-underline-left-to-right">
                   Home
@@ -55,7 +53,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          {/* Language Part */}
+
           <div>
             <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
               Login
