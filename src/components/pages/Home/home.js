@@ -35,7 +35,7 @@ export default function Home() {
   }, [currentImageIndex]);
 
   return (
-    <div className="bg-white w-screen h-1/2 relative">
+    <div className="bg-white w-screen h-1/2 relative mt-20">
       {/* Photos */}
       <div>
         <div className="relative">
@@ -121,7 +121,7 @@ export default function Home() {
         <div>
           <div className='flex flex-wrap items-row justify-center gap-y-10 gap-x-10 my-14 mx-16 lg:flex-row-2'>
 
-            <div className='relative shadow-xl pb-12 hover:red-500 rounded-b-lg hover:-translate-y-2 transition duration-1000'>
+            <div className='relative shadow-xl pb-12 hover:red-500 rounded-b-lg hover:-translate-y-2 transition duration-500'>
               <img src='https://www.enkiticaret.com.tr/1/images/-c0147a394e1246ada5c8b83bf10e2e70.jfif' alt='' className='bg-white w-100 h-64 rounded-t-lg' />
               <div className='bg-white pt-5'>
                 <h2 className='ml-6 font-bold'>Industrial Corrusion Solutions</h2>
@@ -130,7 +130,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='relative shadow-xl  pb-12 hover:red-500 rounded-b-lg hover:-translate-y-2 transition duration-1000'>
+            <div className='relative shadow-xl  pb-12 hover:red-500 rounded-b-lg hover:-translate-y-2 transition duration-500'>
               <img src='https://www.enkiticaret.com.tr/1/images/-5255e46a1e0a4ad881e9bdf817dd4b05.jfif' alt="" className='bg-white w-100 h-64 rounded-t-lg' />
               <div className='bg-white pt-5'>
                 <h2 className='ml-6 font-bold'>Steel Pipe Coating Rehabilitation</h2>
@@ -139,7 +139,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='relative shadow-xl pb-12 hover:red-500 rounded-b-lg hover:-translate-y-2 transition duration-1000'>
+            <div className='relative shadow-xl pb-12 hover:red-500 rounded-b-lg hover:-translate-y-2 transition duration-500'>
               <img src='https://www.enkiticaret.com.tr/1/images/-0d806bb361234af4b2aed48e13a581db.jfif' alt='' className='bg-white w-100 h-64 rounded-t-lg' />
               <div className='bg-white pt-5'>
                 <h2 className='ml-6 font-bold'>Steel Pipe Coatings</h2>
@@ -148,7 +148,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='relative shadow-xl pb-12 hover:red-500 rounded-b-lg hover:-translate-y-2 transition duration-1000'>
+            <div className='relative shadow-xl pb-12 hover:red-500 rounded-b-lg hover:-translate-y-2 transition duration-500'>
               <img src='https://www.enkiticaret.com.tr/1/images/-fbde1734667a4156a565e9655305cae8.png' alt='' className='bg-white w-100 h-64 rounded-t-lg' />
               <div className='bg-white pt-5'>
                 <h2 className='ml-6 font-bold'>Baby Products</h2>
@@ -157,7 +157,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='relative shadow-xl pb-12 hover:red-500 rounded-b-lg hover:-translate-y-2 transition duration-1000'>
+            <div className='relative shadow-xl pb-12 hover:red-500 rounded-b-lg hover:-translate-y-2 transition duration-500'>
               <img src='https://www.enkiticaret.com.tr/1/images/-5984f91b3b6f4aeba3ddff6023ccc5ca.jpg' alt="" className='bg-white w-100 h-64 rounded-t-lg' />
               <div className='bg-white pt-5'>
                 <h2 className='ml-6 font-bold'>Medical Products</h2>
@@ -166,7 +166,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='relative shadow-xl pb-12 hover:red-500 rounded-b-lg hover:-translate-y-2 transition duration-1000'>
+            <div className='relative shadow-xl pb-12 hover:red-500 rounded-b-lg hover:-translate-y-2 transition duration-500'>
               <img src='https://www.enkiticaret.com.tr/1/images/-cc2b3c6816944ef4b59a8132feb3d15b.png' alt='' className='bg-white w-100 h-64 rounded-t-lg' />
               <div className='bg-white pt-5'>
                 <h2 className='ml-6 font-bold'>Zec Silicone Rubber</h2>
@@ -180,12 +180,11 @@ export default function Home() {
         {/*Contact Us */}
       </div>
         <div className='flex items-row justify-center my-40'>
-          <img />
           <div className='flex flex-wrap gap-x-40 justify-center lg:items-col-1 gap-y-20'>
             <div className='flex items-row '>
               <div className="w-1 h-40 bg-red-500 mr-4"></div>
               <div className=' items-col'>
-                <h2 className='text-2xl font-bold'>
+                <h2 className='text-2xl font-bold' style={{textShadow:'20px 1px 20px rgba(0, 0, 0, 0.5)'}}>
                   We offer solutions that provide cost<br /> advantage with our <span className='text-red-500'>expert and<br /> experienced personnel</span> who have<br /> been working in the sector for a long<br /> time.
                 </h2>
                 <p className='text-gray-500 pt-6'>Our company has plans and initiatives to start its activities<br /> in different sectors.</p>
