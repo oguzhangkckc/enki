@@ -13,7 +13,7 @@ export default function AboutUs() {
             <h1 className="flex text-black justify-center pt-10 text-4xl font-bold">About Us</h1>
           </div>
           {/* ABOUT US */}
-          <div className='flex flex-row justify-center pt-8 gap-x-10'>
+          <div className='flex flex-row justify-center flex-wrap pt-8 gap-x-10'>
             <div className=''>
               <h2 className='text-2xl font-semibold'>About Us</h2>
               <p className='pt-3'>Enki İç ve Dış Tic. Paz. Dan.San Tic Ltd Şti started its activities in 2006 by getting the <br /> Turkish Representatives of the world's leading manufacturers in the fields of Powder<br /> Coating (FBE), Wet Paint, Polyethylene (HDPE, LDPE), Adhesive, Rehabilitation/Welding<br /> Zone Coatings and Pipe Transport/Storage/Handling for the Steel Pipe industry has<br /> begun. In the following process, Azerbaijan, Spain, Algeria and Morocco sales<br /> responsibilities on customer basis of these brands have also been added.<br />
