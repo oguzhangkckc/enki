@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { AiOutlinePhone } from 'react-icons/ai';
 
-import Footer from '../Footer/footer';
+import Footer from './footer';
+import Navbar from '../Navbar/navbar';
 
 export default function Home() {
   const imageUrls = [
@@ -36,6 +37,7 @@ export default function Home() {
 
   return (
     <div className="bg-white w-screen h-1/2 relative mt-20">
+      <Navbar />
       {/* Photos */}
       <div>
         <div className="relative">
