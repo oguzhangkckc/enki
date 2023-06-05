@@ -100,12 +100,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about-us" component={AboutUs} />
-        <Route path="/industries" component={Industries} />
-        <Route path="/contact" component={Contact} />
-      </Switch>
+      
     </Router>
   );
 };

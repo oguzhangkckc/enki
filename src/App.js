@@ -1,10 +1,8 @@
-import Home from "./components/pages/home";
+import About from "./components/pages/aboutUs";
 
 function App() {
   return (
-    <>
-      <Home />
-    </>
+    <About />
   );
 }
 

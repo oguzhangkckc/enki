@@ -13,6 +13,9 @@ module.exports = {
       fontFamily: {
         burtons: "Burtons",
     },
+    borderRadius: {
+      extraLarge: '12rem'
+    }
   },
 },
   plugins: [],
