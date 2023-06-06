@@ -1,0 +1,137 @@
+{
+    "aboutUsItemsLeft": {
+        "element1": {
+            "year": "2006",
+            "img": "https://www.enkiticaret.com.tr/1/images/-393f8c6f01dd47f380d4db796050ba0e.png",
+            "divStyling": "flex flex-col items-end gap-y-8",
+            "yearStyling": "text-red-500 text-2xl flex justify-end pt-4",
+            "imgStyling": "w-52 h-36 mr-5 rounded-md",
+            "text": "Beginning cooperation with  ",
+            "textContinued": "Tigerwerk company (Austria)",
+            "textStyling": "flex justify-end text-2xl font-semibold pt-28"
+        },
+        "element2": {
+            "year": "2007",
+            "img": "https://www.enkiticaret.com.tr/1/images/-ad6c0ad0ab204c8e9d2d1d0434313865.png",
+            "divStyling": "flex flex-col items-end gap-y-8 pt-2",
+            "yearStyling": "text-red-500 text-2xl flex justify-end pt-24",
+            "imgStyling": "w-52 h-36 mr-5 rounded-md",
+            "text": "Main supplier of DISI-Jordan water",
+            "textContinued": "pipeline Project with KCC/MPB",
+            "textContinued2": "products",
+            "textStyling": "flex justify-end text-2xl font-semibold pt-28"
+        },
+        "element3": {
+            "year": "2010",
+            "img": "https://www.enkiticaret.com.tr/1/images/-bdc9fef91d58483cbbc09613f017916c.png",
+            "divStyling": "flex flex-col items-end gap-y-8 pt-12",
+            "yearStyling": "text-red-500 text-2xl flex justify-end pt-5",
+            "imgStyling": "w-52 h-36 mr-5 rounded-md",
+            "text": "Beginning to Silicone rubber",
+            "textContinued": "business (China)",
+            "textStyling": "flex justify-end text-2xl font-semibold pt-32"
+        },
+        "element4": {
+            "year": "2013",
+            "img": "https://www.enkiticaret.com.tr/1/images/-302b0162ba4741b39729db07c744eec7.png",
+            "divStyling": "flex flex-col items-end gap-y-8 pt-16",
+            "yearStyling": "text-red-500 text-2xl flex justify-end pt-7",
+            "imgStyling": "w-52 h-36 mr-5 rounded-md",
+            "text": "Approval and usage of KCC and Dhatec",
+            "textContinued": "products at TANAP project",
+            "textStyling": "flex justify-end text-2xl font-semibold pt-32"
+        },
+        "element5": {
+            "year": "2015",
+            "img": "https://www.enkiticaret.com.tr/1/images/-6889c841da324d8d9bca1d7856d67dbf.png",
+            "divStyling": "flex flex-col items-end gap-y-8 pt-16",
+            "yearStyling": "text-red-500 text-2xl flex justify-end pt-6",
+            "imgStyling": "w-52 h-36 mr-5 rounded-md",
+            "text": "Termination of cooperation with ",
+            "textContinued":"Dhatec company",
+            "textStyling": "flex justify-end text-2xl font-semibold pt-32"
+        },
+        "element6": {
+            "year": "2020",
+            "img": "https://www.enkiticaret.com.tr/1/images/-fc31f272e85842728de6ba9532de3865.png",
+            "divStyling": "flex flex-col items-end gap-y-8 pt-12",
+            "yearStyling": "text-red-500 text-2xl flex justify-end pt-10",
+            "imgStyling": "w-52 h-36 mr-5 rounded-md",
+            "text": "Cooperation agreement regarding",
+            "textContinued":"the sales of the EDDA brand",
+            "textContinued2":"products to export markets",
+            "textStyling": "flex justify-end text-2xl font-semibold pt-32"
+        }
+    },
+    "aboutUsItemsRight": {
+        "element1": {
+            "year": "2006",
+            "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRo6CkqujCz-0wlny6-nHJ6hM42_xkeML_ZO-OPc2R7ngXCiIef",
+            "divStyling": "flex flex-col items-start gap-y-8 pt-3",
+            "yearStyling": "text-red-500 text-2xl flex justify-end pt-20",
+            "imgStyling": "w-52 h-36 mr-5 rounded-md",
+            "text": "Beginning cooperation with ",
+            "textContinued":"Polyguard company(USA)",
+            "textStyling": "text-2xl font-semibold pt-32"
+        },
+        "element2": {
+            "year": "2006",
+            "img": "https://www.enkiticaret.com.tr/1/images/-eaa55b6752224713aac59f771de21e88.png",
+            "divStyling": "flex flex-col items-start gap-y-8 pt-16",
+            "yearStyling": "text-red-500 text-2xl flex justify-end pt-6",
+            "imgStyling": "w-52 h-36 mr-5 rounded-md",
+            "text": "Beginning cooperation with company",
+            "textContinued":"Industrie Polieco-MPB (İtaly)",
+            "textContinued2":"company",
+            "textStyling": "text-2xl font-semibold pt-32"
+        },
+        "element3": {
+            "year": "2009",
+            "img": "https://www.enkiticaret.com.tr/1/images/-b23d277d1b4545d0ac8d86558e0203d4.png",
+            "divStyling": "flex flex-col items-start gap-y-8 pt-12",
+            "yearStyling": "text-red-500 text-2xl flex justify-end pt-2",
+            "imgStyling": "w-52 h-36 mr-5 rounded-md",
+            "text": "Beginning cooperation with Dhatec ",
+            "textContinued":"company (Netherland)",
+            "textStyling": "text-2xl font-semibold pt-32"
+        },
+        "element4": {
+            "year": "2010",
+            "img": "https://www.enkiticaret.com.tr/1/images/-2d960fe99bec480eb7aea5b84fbed093.png",
+            "divStyling": "flex flex-col items-start gap-y-8 pt-16",
+            "yearStyling": "text-red-500 text-2xl flex justify-end pt-6",
+            "imgStyling": "w-52 h-36 mr-5 rounded-md",
+            "text": "Termination of cooperation with",
+            "textContinued":"Tigerwerk company",
+            "textStyling": "text-2xl font-semibold pt-32"
+        },
+        "element5": {
+            "year": "2014",
+            "img": "https://www.enkiticaret.com.tr/1/images/-993f228f5ba3423fb518aa6239db4d26.png",
+            "divStyling": "flex flex-col items-start gap-y-8 pt-16",
+            "yearStyling": "text-red-500 text-2xl flex justify-end pt-6",
+            "imgStyling": "w-52 h-36 mr-5 rounded-md",
+            "text": "Beginning cooperation with Enri",
+            "textContinued":"company(France)",
+            "textStyling": "text-2xl font-semibold pt-32"
+        },
+        "element6": {
+            "year": "2018",
+            "img": "https://www.enkiticaret.com.tr/1/images/-921f3a3a3e10449c9eee40d073006448.png",
+            "divStyling": "flex flex-col items-start gap-y-8 pt-16",
+            "yearStyling": "text-red-500 text-2xl flex justify-end pt-6",
+            "imgStyling": "w-52 h-36 mr-5 rounded-md",
+            "text": "Cooperation agreement regarding ",
+            "textContinued":"the sales of the EDDA brand",
+            "textContinued2":"products to export markets",
+            "textStyling": "text-2xl font-semibold pt-32"
+        },
+        "element7": {
+            "year": "2021",
+            "img": "https://www.enkiticaret.com.tr/1/images/-fc31f272e85842728de6ba9532de3865.png",
+            "divStyling": "flex flex-col items-start gap-y-8 pt-12",
+            "yearStyling": "text-red-500 text-2xl flex justify-end pt-2",
+            "imgStyling": "w-52 h-36 mr-5 rounded-md"
+        }
+    }
+}

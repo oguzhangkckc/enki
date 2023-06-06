@@ -1,146 +1,12 @@
 import React from 'react';
 import Navbar from '../Navbar/navbar';
 import Footer from './footer';
-// import imeline from '../components/timeline';
+import Timeline from '../components/timeline';
+import data from '../dummy/aboutUsItem.json';
 
 export default function AboutUs() {
 
-  const aboutUsItemsLeft = {
-    element1: {
-      year: "2006",
-      img: "https://www.enkiticaret.com.tr/1/images/-393f8c6f01dd47f380d4db796050ba0e.png",
-      divStyling: "flex flex-col gap-y-12",
-      yearStyling: "text-red-500 text-2xl flex flex justify-end pt-6",
-      imgStyling: 'w-52 h-36 mr-5 rounded-md',
-      text: "Beginning cooperation with Tigerwerk company (Austria)",
-      textStyling: "text-2xl font-semibold pt-40"
-    },
-    element2: {
-      year: "2007",
-      img: "https://www.enkiticaret.com.tr/1/images/-ad6c0ad0ab204c8e9d2d1d0434313865.png",
-      divStyling: "flex flex-col gap-y-12",
-      yearStyling: "text-red-500 text-2xl flex flex justify-end pt-6",
-      imgStyling: 'w-52 h-36 mr-5 rounded-md',
-      text: "Main supplier of DISI-Jordan water pipeline Project with KCC/MPB products",
-      textStyling: "text-2xl font-semibold pt-40"
-    },
-    element3: {
-      year: "2010",
-      img: "https://www.enkiticaret.com.tr/1/images/-bdc9fef91d58483cbbc09613f017916c.png",
-      divStyling: "flex flex-col gap-y-12",
-      yearStyling: "text-red-500 text-2xl flex flex justify-end pt-6",
-      imgStyling: 'w-52 h-36 mr-5 rounded-md',
-      text: "Beginning to Silicone rubber business (China)",
-      textStyling: "text-2xl font-semibold pt-40"
-    },
-    element4: {
-      year: "2013",
-      img: "https://www.enkiticaret.com.tr/1/images/-302b0162ba4741b39729db07c744eec7.png",
-      divStyling: "flex flex-col gap-y-12",
-      yearStyling: "text-red-500 text-2xl flex flex justify-end pt-6",
-      imgStyling: 'w-52 h-36 mr-5 rounded-md',
-      text: "Approval and usage of KCC and Dhatec products at TANAP project",
-      textStyling: "text-2xl font-semibold pt-40"
-    },
-    element5: {
-      year: "2015",
-      img: "https://www.enkiticaret.com.tr/1/images/-393f8c6f01dd47f380d4db796050ba0e.png",
-      divStyling: "flex flex-col gap-y-12",
-      yearStyling: "text-red-500 text-2xl flex flex justify-end pt-6",
-      imgStyling: 'w-52 h-36 mr-5 rounded-md',
-      text: "Termination of cooperation with Dhatec company",
-      textStyling: "text-2xl font-semibold pt-40"
-    },
-    element6: {
-      year: "2020",
-      img: "https://www.enkiticaret.com.tr/1/images/-393f8c6f01dd47f380d4db796050ba0e.png",
-      divStyling: "flex flex-col gap-y-12",
-      yearStyling: "text-red-500 text-2xl flex flex justify-end pt-6",
-      imgStyling: 'w-52 h-36 mr-5 rounded-md',
-      text: "Cooperation agreement regarding<br /> the sales of the EDDA brand products to export markets",
-      textStyling: "text-2xl font-semibold pt-40"
-    },
-  }
-  const aboutUsItemsRight = {
-    element1: {
-      year: "2006",
-      img: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRo6CkqujCz-0wlny6-nHJ6hM42_xkeML_ZO-OPc2R7ngXCiIef",
-      divStyling: "flex flex-col gap-y-12",
-      yearStyling: "text-red-500 text-2xl flex flex justify-end pt-6",
-      imgStyling: 'w-52 h-36 mr-5 rounded-md',
-      text: "Beginning cooperation with KCC company(S.Korea)",
-      textStyling: "text-2xl font-semibold pt-40"
-    },
-    element2: {
-      year: "2006",
-      img: "https://www.enkiticaret.com.tr/1/images/-eaa55b6752224713aac59f771de21e88.png",
-      divStyling: "flex flex-col gap-y-12",
-      yearStyling: "text-red-500 text-2xl flex flex justify-end pt-6",
-      imgStyling: 'w-52 h-36 mr-5 rounded-md',
-      text: "Beginning cooperation with KCC company(S.Korea)",
-      textStyling: "text-2xl font-semibold pt-40"
-    },
-    element3: {
-      year: "2009",
-      img: "https://www.enkiticaret.com.tr/1/images/-b23d277d1b4545d0ac8d86558e0203d4.png",
-      divStyling: "flex flex-col gap-y-12",
-      yearStyling: "text-red-500 text-2xl flex flex justify-end pt-6",
-      imgStyling: 'w-52 h-36 mr-5 rounded-md',
-      text: "Beginning cooperation with KCC company(S.Korea)",
-      textStyling: "text-2xl font-semibold pt-40"
-    },
-    element4: {
-      year: "2010",
-      img: "https://www.enkiticaret.com.tr/1/images/-2d960fe99bec480eb7aea5b84fbed093.png",
-      divStyling: "flex flex-col gap-y-12",
-      yearStyling: "text-red-500 text-2xl flex flex justify-end pt-6",
-      imgStyling: 'w-52 h-36 mr-5 rounded-md',
-      text: "Beginning cooperation with KCC company(S.Korea)",
-      textStyling: "text-2xl font-semibold pt-40"
-    },
-    element5: {
-      year: "2014",
-      img: "https://www.enkiticaret.com.tr/1/images/-993f228f5ba3423fb518aa6239db4d26.png",
-      divStyling: "flex flex-col gap-y-12",
-      yearStyling: "text-red-500 text-2xl flex flex justify-end pt-6",
-      imgStyling: 'w-52 h-36 mr-5 rounded-md',
-      text: "Beginning cooperation with KCC company(S.Korea)",
-      textStyling: "text-2xl font-semibold pt-40"
-    },
-    element6: {
-      year: "2018",
-      img: "https://www.enkiticaret.com.tr/1/images/-921f3a3a3e10449c9eee40d073006448.png",
-      divStyling: "flex flex-col gap-y-12",
-      yearStyling: "text-red-500 text-2xl flex flex justify-end pt-6",
-      imgStyling: 'w-52 h-36 mr-5 rounded-md',
-      text: "Beginning cooperation with KCC company(S.Korea)",
-      textStyling: "text-2xl font-semibold pt-40"
-    },
-    element7: {
-      year: "2021",
-      img: "https://www.enkiticaret.com.tr/1/images/-fc31f272e85842728de6ba9532de3865.png",
-      divStyling: "flex flex-col gap-y-12",
-      yearStyling: "text-red-500 text-2xl flex flex justify-end pt-6",
-      imgStyling: 'w-52 h-36 mr-5 rounded-md',
-      text: "Beginning cooperation with KCC company(S.Korea)",
-      textStyling: "text-2xl font-semibold pt-40"
-    },
-  }
-
-  const AboutUsItemsRender = ({ aboutUsItems }) => {
-    return (
-      <div className='flex flex-col items-center gap-y-32'>
-        {Object.values(aboutUsItems).map((element, index) => (
-          <><div className={element.divStyling} key={index}>
-            <h3 className={element.yearStyling}>{element.year}</h3>
-            <img className={element.imgStyling} alt="" src={element.img} />
-          </div>
-            <h2 className={element.textStyling}>{element.text}</h2>
-          </>
-        ))}
-      </div>
-    );
-  };
+  const { aboutUsItemsLeft, aboutUsItemsRight } = data;
 
   return (
     <section id='about-us' >
@@ -194,46 +60,10 @@ export default function AboutUs() {
                 <h1 className='text-red-500 text-8xl font-extrabold pr-5'>enki</h1>
               </div>
               <h2 className='flex text-2xl font-semibold pt-12'>Beginning cooperation with <br /> KCC company(S.Korea)</h2>
-
-              {/* <div className='flex flex-col gap-y-12'>
-                <h3 className='text-red-500 text-2xl flex flex justify-end pt-6'>2006</h3>
-                <img className='w-52 h-36 mr-5 rounded-md' alt='' src="https://www.enkiticaret.com.tr/1/images/-393f8c6f01dd47f380d4db796050ba0e.png" />
-              </div>
-              <h2 className='flex text-2xl font-semibold pt-10'>Beginning cooperation with<br /> Tigerwerk company (Austria)</h2>
-
-              <div className='flex flex-col gap-y-12'>
-                <h3 className='text-red-500 text-2xl flex flex justify-end'>2007</h3>
-                <img className='w-52 h-36 mr-5 rounded-md' alt='' src="https://www.enkiticaret.com.tr/1/images/-ad6c0ad0ab204c8e9d2d1d0434313865.png" />
-              </div>
-              <h2 className='flex text-2xl font-semibold pt-3'>Main supplier of DISI-Jordan water<br /> pipeline Project with KCC/MPB<br /> products</h2>
-
-              <div className='flex flex-col gap-y-12'>
-                <h3 className='text-red-500 text-2xl flex flex justify-end'>2010</h3>
-                <img className='w-52 h-36mr-5 rounded-md' alt='' src="https://www.enkiticaret.com.tr/1/images/-bdc9fef91d58483cbbc09613f017916c.png" />
-              </div>
-              <h2 className='flex text-2xl font-semibold pt-10'>Beginning to Silicone rubber<br /> business (China)</h2>
-
-              <div className='flex flex-col gap-y-12'>
-                <h3 className='text-red-500 text-2xl flex flex justify-end'>2013</h3>
-                <img className='w-52 h-36 mr-5 rounded-md' alt='' src="https://www.enkiticaret.com.tr/1/images/-302b0162ba4741b39729db07c744eec7.png" />
-              </div>
-              <h2 className='flex text-2xl font-semibold pt-10'>Approval and usage of KCC and<br /> Dhatec products at TANAP project</h2>
-
-              <div className='flex flex-col gap-y-12'>
-                <h3 className='text-red-500 text-2xl flex flex justify-end'>2015</h3>
-                <img className='w-52 h-36 mr-5 rounded-md' alt='' src="https://www.enkiticaret.com.tr/1/images/-6889c841da324d8d9bca1d7856d67dbf.png" />
-              </div>
-              <h2 className='flex text-2xl font-semibold pt-10'>Termination of cooperation with<br /> Dhatec company</h2>
-
-              <div className='flex flex-col gap-y-12'>
-                <h3 className='text-red-500 text-2xl flex flex justify-end'>2020</h3>
-                <img className='w-52 h-36 mr-5 rounded-md' alt='' src="https://www.enkiticaret.com.tr/1/images/-fc31f272e85842728de6ba9532de3865.png" />
-              </div>
-              <h2 className='flex text-2xl font-semibold pt-4'>Cooperation agreement regarding<br /> the sales of the EDDA brand<br /> products to export markets</h2> */}
-              <AboutUsItemsRender aboutUsItems={aboutUsItemsLeft} />
+              <Timeline data={aboutUsItemsLeft} />
             </div>
 
-            <div className="flex flex-wrap border-l-2 h-[500vh] border-red-300 block relative">
+            <div className="flex flex-wrap border-l-2 h-[500vh] border-red-300 relative">
               {[...Array(14)].map((_, index) => (
                 <div
                   key={index}
@@ -251,42 +81,7 @@ export default function AboutUs() {
 
             <div className='flex flex-col items-start gap-y-12'>
               <h2 className='text-2xl font-semibold pt-48'>Foundation</h2>
-              <AboutUsItemsRender aboutUsItems={aboutUsItemsRight} />
-
-              {/* <div className='flex flex-col gap-y-12'>
-                <h3 className='text-red-500 text-2xl flex pt-14'>2006</h3>
-                <img className='w-52 h-36mr-5 rounded-md' alt='' src='https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRo6CkqujCz-0wlny6-nHJ6hM42_xkeML_ZO-OPc2R7ngXCiIef' />
-              </div>
-              <h2 className='text-2xl font-semibold pt-44'>Beginning cooperation with<br /> Polyguard company(USA)</h2>
-              <div className='flex flex-col gap-y-12'>
-                <h3 className='text-red-500 text-2xl flex pt-10'>2006</h3>
-                <img className='w-52 h-36 mr-5 rounded-md' alt='' src='https://www.enkiticaret.com.tr/1/images/-eaa55b6752224713aac59f771de21e88.png' />
-              </div>
-              <h2 className='text-2xl font-semibold pt-40'>Beginning cooperation with<br /> Industrie Polieco-MPB (İtaly)<br /> company</h2>
-              <div className='flex flex-col gap-y-12 pt-2'>
-                <h3 className='text-red-500 text-2xl flex'>2009</h3>
-                <img className='w-52 h-36 mr-5 rounded-md' alt='' src='https://www.enkiticaret.com.tr/1/images/-b23d277d1b4545d0ac8d86558e0203d4.png' />
-              </div>
-              <h2 className='text-2xl font-semibold pt-44'>Beginning cooperation with Dhatec<br />company (Netherland)</h2>
-              <div className='flex flex-col gap-y-12 pt-6'>
-                <h3 className='text-red-500 text-2xl flex'>2010</h3>
-                <img className='w-52 h-36 mr-5 rounded-md' alt='' src='https://www.enkiticaret.com.tr/1/images/-2d960fe99bec480eb7aea5b84fbed093.png' />
-              </div>
-              <h2 className='text-2xl font-semibold pt-44'>Termination of cooperation with<br />Tigerwerk company</h2>
-              <div className='flex flex-col gap-y-12 pt-6'>
-                <h3 className='text-red-500 text-2xl flex'>2014</h3>
-                <img className='w-52 h-36 mr-5 rounded-md' alt='' src='https://www.enkiticaret.com.tr/1/images/-993f228f5ba3423fb518aa6239db4d26.png' />
-              </div>
-              <h2 className='text-2xl font-semibold pt-44'>Beginning cooperation with Enri<br />company(France)</h2>
-              <div className='flex flex-col gap-y-12 pt-6'>
-                <h3 className='text-red-500 text-2xl flex'>2018</h3>
-                <img className='w-52 h-36 mr-5 rounded-md' alt='' src='https://www.enkiticaret.com.tr/1/images/-921f3a3a3e10449c9eee40d073006448.png' />
-              </div>
-              <h2 className='text-2xl font-semibold pt-40'>Cooperation agreement regarding<br />the sales of the EDDA brand <br />products to export markets</h2>
-              <div className='flex flex-col gap-y-12 pt-4'>
-                <h3 className='text-red-500 text-2xl flex'>2021</h3>
-                <img className='w-52 h-36 mr-5 rounded-md' alt='' src='https://www.enkiticaret.com.tr/1/images/-fc31f272e85842728de6ba9532de3865.png' />
-              </div> */}
+              <Timeline data={aboutUsItemsRight} />
             </div>
 
           </div>
