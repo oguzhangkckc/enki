@@ -8,7 +8,7 @@
             "imgStyling": "w-52 h-36 mr-5 rounded-md",
             "text": "Beginning cooperation with  ",
             "textContinued": "Tigerwerk company (Austria)",
-            "textStyling": "flex justify-end text-2xl font-semibold pt-28"
+            "textStyling": "flex justify-end text-end text-2xl font-semibold pt-28"
         },
         "element2": {
             "year": "2007",
@@ -19,7 +19,7 @@
             "text": "Main supplier of DISI-Jordan water",
             "textContinued": "pipeline Project with KCC/MPB",
             "textContinued2": "products",
-            "textStyling": "flex justify-end text-2xl font-semibold pt-28"
+            "textStyling": "flex justify-end text-end text-2xl font-semibold pt-28"
         },
         "element3": {
             "year": "2010",
@@ -29,7 +29,7 @@
             "imgStyling": "w-52 h-36 mr-5 rounded-md",
             "text": "Beginning to Silicone rubber",
             "textContinued": "business (China)",
-            "textStyling": "flex justify-end text-2xl font-semibold pt-32"
+            "textStyling": "flex justify-end text-end text-2xl font-semibold pt-32"
         },
         "element4": {
             "year": "2013",
@@ -39,7 +39,7 @@
             "imgStyling": "w-52 h-36 mr-5 rounded-md",
             "text": "Approval and usage of KCC and Dhatec",
             "textContinued": "products at TANAP project",
-            "textStyling": "flex justify-end text-2xl font-semibold pt-32"
+            "textStyling": "flex justify-end text-end text-2xl font-semibold pt-32"
         },
         "element5": {
             "year": "2015",
@@ -49,7 +49,7 @@
             "imgStyling": "w-52 h-36 mr-5 rounded-md",
             "text": "Termination of cooperation with ",
             "textContinued":"Dhatec company",
-            "textStyling": "flex justify-end text-2xl font-semibold pt-32"
+            "textStyling": "flex justify-end text-end text-2xl font-semibold pt-32"
         },
         "element6": {
             "year": "2020",
@@ -60,7 +60,7 @@
             "text": "Cooperation agreement regarding",
             "textContinued":"the sales of the EDDA brand",
             "textContinued2":"products to export markets",
-            "textStyling": "flex justify-end text-2xl font-semibold pt-32"
+            "textStyling": "flex justify-end text-end text-2xl font-semibold pt-32"
         }
     },
     "aboutUsItemsRight": {

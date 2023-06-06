@@ -34,7 +34,7 @@ export default function AboutUs() {
                 The mission of our company is to offer world brands, technology, knowledge and<br /> quality to the sectors we serve in the most suitable conditions and to create an added<br /> value in order to increase the competitiveness of our customers.<br /></p>
             </div>
             <div className=''>
-              <img className="rounded-tl-extraLarge rounded-br-extraLarge" alt='' src="https://www.enkiticaret.com.tr/1/images/-43be487d918e4fcd95b4ba145565b157.png" />
+              <img className="rounded-tl-extraLarge rounded-br-extraLarge pt-10" alt='' src="https://www.enkiticaret.com.tr/1/images/-43be487d918e4fcd95b4ba145565b157.png" />
             </div>
           </div>
           {/* ARA SÖZ */}
