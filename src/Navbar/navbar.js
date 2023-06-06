@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Translation from '../../translation/Data.json';
+import Translation from '../translation/Data.json';
 
 const Home = () => <h1>Home Page</h1>;
 const AboutUs = () => <h1>About Us Page</h1>;
