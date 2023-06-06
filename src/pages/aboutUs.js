@@ -14,9 +14,11 @@ export default function AboutUs() {
         <Navbar />
         <div>
 
+          {/* HEADER */}
           <div className=" justify-end bg-cover bg-center bg-no-repeat h-40" style={{ backgroundImage: `url(https://media.istockphoto.com/id/1203189381/vector/world-map-illustration-on-beige-background.jpg?s=170667a&w=0&k=20&c=tWKrt5JfQq9TRdHAhfaOrwHnRbtzg8KfgRXKj04i6Qg=)` }}>
-            <h1 className="flex text-black justify-center pt-10 text-4xl font-bold">About Us</h1>
+            <h1 className="flex text-black justify-center pt-10 text-3xl font-semibold">About Us</h1>
           </div>
+
           {/* ABOUT US */}
           <div className='flex flex-row justify-center flex-wrap pt-8 gap-x-10'>
             <div className=''>
