@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { AiOutlinePhone } from 'react-icons/ai';
 
 import Footer from './footer';
-import Navbar from '../components/Navbar/navbar';
+import Navbar from '../Navbar/navbar';
 
 export default function Home() {
   const imageUrls = [
