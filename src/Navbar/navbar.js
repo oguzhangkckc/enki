@@ -1,11 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Translation from '../translation/Data.json';
-
-const Home = () => <h1>Home Page</h1>;
-const AboutUs = () => <h1>About Us Page</h1>;
-const Industries = () => <h1>Industries Page</h1>;
-const Contact = () => <h1>Contact Page</h1>;
 
 const Navbar = () => {
   useEffect(() => {
@@ -36,7 +30,6 @@ const Navbar = () => {
   }, [language]);
 
   return (
-    <Router>
       <nav className="fixed top-0 w-full z-50" style={{ backgroundColor: 'white' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
@@ -45,30 +38,30 @@ const Navbar = () => {
             </div>
 
             <div className="">
-              <ul className="flex items-center font-bold space-x-8 text-base text-xl hidden md:flex">
+              <ul className="flex items-center font-semibold space-x-8 text-base text-lg hidden md:flex">
                 <li className="relative">
-                  <Link to="/" className="text-black hover:text-red-500 transition duration-500 hover-underline-left-to-right">
+                  <a href='/' className="text-black hover:text-red-500 transition duration-500 hover-underline-left-to-right">
                     {content.home}
                     <span className="underline absolute left-0 bottom-0 h-0.5 bg-red-500 transition-all duration-500"></span>
-                  </Link>
+                  </a>
                 </li>
                 <li className="relative">
-                  <Link to="/about-us" className="text-black hover:text-red-500 transition duration-500 hover-underline-left-to-right">
+                  <a href="/about-us" className="text-black hover:text-red-500 transition duration-500 hover-underline-left-to-right">
                     {content.aboutUs}
                     <span className="underline absolute left-0 bottom-0 h-0.5 bg-red-500 transition-all duration-500"></span>
-                  </Link>
+                  </a>
                 </li>
                 <li className="relative">
-                  <Link to="/industries" className="text-black hover:text-red-500 transition duration-500 hover-underline-left-to-right">
+                  <a href="/industries" className="text-black hover:text-red-500 transition duration-500 hover-underline-left-to-right">
                     {content.industries}
                     <span className="underline absolute left-0 bottom-0 h-0.5 bg-red-500 transition-all duration-500"></span>
-                  </Link>
+                  </a>
                 </li>
                 <li className="relative">
-                  <Link to="/contact" className="text-black hover:text-red-500 transition duration-500 hover-underline-left-to-right">
+                  <a href="/contact" className="text-black hover:text-red-500 transition duration-500 hover-underline-left-to-right">
                     {content.contact}
                     <span className="underline absolute left-0 bottom-0 h-0.5 bg-red-500 transition-all duration-500"></span>
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -99,9 +92,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-
-      
-    </Router>
   );
 };
 
