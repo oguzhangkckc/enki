@@ -1,14 +1,9 @@
 import React from 'react'
 import Navbar from '../Navbar/navbar'
 import Footer from './footer'
-import ListTabBar from '../components/industriesTabBar'
-import { useState } from 'react'
+import Sidebar from '../components/sideBar'
 
 export default function Industries() {
-
-  const [tabBar, setTabBar] = useState("hidden");
-
-
 
   return (
     <div>
@@ -24,69 +19,7 @@ export default function Industries() {
         <div className='flex items-row pt-12'>
 
           <div className=''>
-            <div className="relative">
-              <div className="">
-                <ListTabBar
-                  head="PIPE"
-                  options={["All", "Automotive", "Consumer", "Industrial"]}
-                  divClass="pl-4"
-                />
-              </div>
-            </div>
-            <div className="relative">
-              <div className="">
-                <ListTabBar
-                  head="PIPE"
-                  options={["All", "Automotive", "Consumer", "Industrial"]}
-                  divClass="pl-4"
-                />
-              </div>
-            </div>
-            <div className="relative">
-              <div className="">
-                <ListTabBar
-                  head="PIPE"
-                  options={["All", "Automotive", "Consumer", "Industrial"]}
-                  divClass="pl-4"
-                />
-              </div>
-            </div>
-            <div className="relative">
-              <div className="">
-                <ListTabBar
-                  head="PIPE"
-                  options={["All", "Automotive", "Consumer", "Industrial"]}
-                  divClass="pl-4"
-                />
-              </div>
-            </div>
-            <div className="relative">
-              <div className="">
-                <ListTabBar
-                  head="PIPE"
-                  options={["All", "Automotive", "Consumer", "Industrial"]}
-                  divClass="pl-4"
-                />
-              </div>
-            </div>
-            <div className="relative">
-              <div className="">
-                <ListTabBar
-                  head="PIPE"
-                  options={["All", "Automotive", "Consumer", "Industrial"]}
-                  divClass="pl-4"
-                />
-              </div>
-            </div>
-            <div className="relative">
-              <div className="">
-                <ListTabBar
-                  head="PIPE"
-                  options={["All", "Automotive", "Consumer", "Industrial"]}
-                  divClass="pl-4"
-                />
-              </div>
-            </div>
+            <Sidebar />
           </div>
 
           <div>
