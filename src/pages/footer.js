@@ -18,7 +18,7 @@ export default function Footer() {
   return (
     <div>
       <div className='flex flex-wrap my-20 mx-20 items-row justify-between'>
-        <div>
+        <div className='pl-24'>
           <div>
             <h1 className='text-red-500 text-6xl font-bold'>enki</h1>
             <p className='pt-5'>Our company has successfully met the<br /> demands of Industrial Organizations serving<br /> projects both in Turkey and abroad, and has had<br /> the opportunity to show the performance of the<br /> products we represent.</p>
@@ -49,7 +49,7 @@ export default function Footer() {
             <li>Baby Products</li>
           </ul>
         </div>
-        <div>
+        <div className='pr-28'>
           <h2 className='text-xl  font-bold mt-10'>Contact Us</h2>
           <p className='pt-5'>Sahrayı Cedit, Cebesoy Sk. No:26,<br /> 34734 Kadıköy/İstanbul</p>
           <p className='pt-3'>0 216 467 38 57</p>
@@ -63,7 +63,7 @@ export default function Footer() {
           </LoadScript>
         </div>
       </div>
-      <div className='h-px mx-20 border border-r border-gray-500 mb-4' />
+      <div className='h-px mx-40 border border-r border-gray-500 mb-4' />
       <div className='flex justify-center mb-2'>
         <p className='text-gray-500'>© 2023 All rights reserved.</p>
       </div>
