@@ -62,7 +62,7 @@ export default function Footer() {
             />
           </LoadScript>
         </div>
-      </div> 
+      </div>
       <div className='h-px mx-40 border border-r border-gray-500 mb-4' />
       <div className='flex justify-center mb-2'>
         <p className='text-gray-500'>© 2023 All rights reserved.</p>
