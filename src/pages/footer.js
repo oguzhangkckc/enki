@@ -67,6 +67,6 @@ export default function Footer() {
       <div className='flex justify-center mb-2'>
         <p className='text-gray-500'>© 2023 All rights reserved.</p>
       </div>   
-    </div> 
+    </div>  
   ) 
 } 
