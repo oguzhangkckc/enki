@@ -68,5 +68,5 @@ export default function Footer() {
         <p className='text-gray-500'>© 2023 All rights reserved.</p>
       </div>   
     </div>
-  )
+  ) 
 } 
